@@ -5,3 +5,4 @@ O projeto terá 6 notícias entre notícias de texto, vídeo e áudio, além de 
 
 Contribuidores:
 [Bruno Marques](https://github.com/brvnv)
+[Gabriel Silva](https://github.com/gabriel-oxx)
