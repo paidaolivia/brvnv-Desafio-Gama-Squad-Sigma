@@ -1,0 +1,98 @@
+.background{
+    background-image: url("img/virus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+
+
+#cabecalho {
+    border: rgb(153, 248, 0) 2px solid;
+    border-radius: 5px;
+    /*margin: 50px;*/
+    /*padding*/
+    padding-left: 50px;
+    margin-bottom: 10px;
+    text-shadow: rgb(255, 145, 2) 1px 1px 3px;
+    background: #f3f3f3;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times;
+}
+
+.fundoConteudo{
+    background: rgb(243,243,243,.9);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: rgb(153,248,0) 2px solid ;
+
+
+}
+
+nav{
+    
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+a {
+    color: black;
+    text-decoration: unset;
+}
+
+#logo{
+    
+    border: solid;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: orangered;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
