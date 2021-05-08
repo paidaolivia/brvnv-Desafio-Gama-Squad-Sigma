@@ -1,0 +1,131 @@
+
+/*Atribuido uso total da pagina com o height:100*/
+body{
+    height: 100%;
+    margin: 0;
+}
+/*Atribuido imagem de background*/
+.background{
+    background-image: url("img/virus.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Cabecalho em um bloco a parte com bordas proprias*/
+#cabecalho {
+    border: rgb(153, 248, 0) 2px solid;
+    border-radius: 5px;
+    /*margin: 50px;*/
+    /*padding*/
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-shadow: rgb(255, 145, 2) 1px 1px 3px;
+    background: #f3f3f3;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-size: medium;
+
+}
+/*Atribuido fundo transparente atrás do conteiner das noticias*/
+.fundoConteudo{
+    background: rgb(243,243,243,.9);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: rgb(153,248,0) 2px solid ;
+
+
+}
+
+/*nav{
+    
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}*/
+
+
+
+#logo{
+    
+    border: rgb(153,248,0) solid;
+    
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+/*Nav bar aprimorada, agora com barra e efeito nos botões*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: orangered;
+    font-family: Arial;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: unset;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+
+  /*Atribuido espaçamento entre as bordas*/
+  .conteudo{
+    padding: 14px 16px;
+  }
+
+  /*Descrição da imagem usada como logo*/
+  #descricaoImagem{
+      text-align: right;
+      padding-right: 90px;
+  }
+#saibaMais{
+    text-decoration-style: none;
+    color: orangered;
+}
+
+article{
+    border: rgb(153, 248, 0) 2px solid;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+h2{
+    color: orangered;
+}
+
+h3{
+    color: orangered;
+}
