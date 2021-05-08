@@ -1,15 +1,17 @@
+
+/*Atribuido uso total da pagina com o height:100*/
+body{
+    height: 100%;
+    margin: 0;
+}
+/*Atribuido imagem de background*/
 .background{
     background-image: url("img/virus.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-body{
-    height: 100%;
-    margin: 0;
-}
-
-
+/* Cabecalho em um bloco a parte com bordas proprias*/
 #cabecalho {
     border: rgb(153, 248, 0) 2px solid;
     border-radius: 5px;
@@ -29,7 +31,7 @@ body{
     font-size: medium;
 
 }
-
+/*Atribuido fundo transparente atrás do conteiner das noticias*/
 .fundoConteudo{
     background: rgb(243,243,243,.9);
     margin-left: 2%;
@@ -53,10 +55,7 @@ body{
     
 }*/
 
-a {
-    color: black;
-    
-}
+
 
 #logo{
     
@@ -68,7 +67,7 @@ a {
     margin-right: auto;
     margin-bottom: 0;
 }
-/*menu*/
+/*Nav bar aprimorada, agora com barra e efeito nos botões*/
 
 ul {
     list-style-type: none;
@@ -89,7 +88,6 @@ ul {
     font-family: Arial;
     text-align: center;
     padding: 14px 16px;
-    /*text-decoration: none;*/
     font-weight: bold;
     text-decoration: unset;
   }
@@ -103,15 +101,16 @@ ul {
     background-color: #4CAF50;
   }
 
+  /*Atribuido espaçamento entre as bordas*/
   .conteudo{
     padding: 14px 16px;
-   
   }
+
+  /*Descrição da imagem usada como logo*/
   #descricaoImagem{
       text-align: right;
       padding-right: 90px;
   }
-
 #saibaMais{
     text-decoration-style: none;
     color: orangered;
