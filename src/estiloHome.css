@@ -15,7 +15,7 @@ body{
     border-radius: 5px;
     /*margin: 50px;*/
     /*padding*/
-    padding-left: 50px;
+    padding-left: 30px;
     margin-bottom: 10px;
     text-shadow: rgb(255, 145, 2) 1px 1px 3px;
     background: #f3f3f3;
@@ -24,7 +24,10 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 5px;
-    font-family:'Times New Roman', Times;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-size: medium;
+
 }
 
 .fundoConteudo{
@@ -39,7 +42,7 @@ body{
 
 }
 
-nav{
+/*nav{
     
     display: flex;
     margin-top: 10px;
@@ -48,20 +51,22 @@ nav{
     padding-left: 20%;
     padding-right: 20%;
     
-}
+}*/
 
 a {
     color: black;
-    text-decoration: unset;
+    
 }
 
 #logo{
     
-    border: solid;
+    border: rgb(153,248,0) solid;
+    
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
 }
 /*menu*/
 
@@ -81,11 +86,12 @@ ul {
   li a {
     display: block;
     color: orangered;
+    font-family: Arial;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    /*text-decoration: none;*/
     font-weight: bold;
-
+    text-decoration: unset;
   }
   
   li a:hover:not(.active) {
@@ -96,3 +102,31 @@ ul {
     color: white;
     background-color: #4CAF50;
   }
+
+  .conteudo{
+    padding: 14px 16px;
+   
+  }
+  #descricaoImagem{
+      text-align: right;
+      padding-right: 90px;
+  }
+
+#saibaMais{
+    text-decoration-style: none;
+    color: orangered;
+}
+
+article{
+    border: rgb(153, 248, 0) 2px solid;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+h2{
+    color: orangered;
+}
+
+h3{
+    color: orangered;
+}
